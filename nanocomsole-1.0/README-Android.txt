@@ -1,4 +1,7 @@
 
+Cross-build through the Android NDK
+-----------------------------------
+
 Install Android NDK and set environment variables needed for cross-compilation
 through it.
 Reference:
@@ -10,4 +13,12 @@ Then unpack sources, change directory to the source tree,
 and build through "make": as an example,
 tar xf nanocomsole-[...].tar.gz ; cd nanocomsole-[...]
 make -e
+
+
+Native build through a native GCC for Android
+---------------------------------------------
+
+Nanocomsole can also be easily compiled through a native GCC for Android:
+see https://github.com/marco-pratesi/android/tree/master/gcc_and_friends .
+Just set CC=gcc and run make.
 
