@@ -4,7 +4,7 @@ include $(call all-subdir-makefiles)
 include $(CLEAR_VARS)
 FILE_LIST := $(wildcard $(LOCAL_PATH)/*.c)
 #######################################################
-LOCAL_MODULE := nanoconsole
+LOCAL_MODULE := nanocomsole
 LOCAL_C_INCLUDES += $(LOCAL_PATH)
 LOCAL_SRC_FILES := $(FILE_LIST:$(LOCAL_PATH)/%=%)
 LOCAL_LDLIBS := -llog
