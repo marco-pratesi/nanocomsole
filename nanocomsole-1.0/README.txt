@@ -48,6 +48,13 @@ This is virtually identical to the same file in microcom.
 version.h defines the program version number.
 
 -------
+Build
+-------
+
+This source can be build with NDK command
+ndk-build NDK_PROJECT_PATH=. APP_BUILD_SCRIPT=./Android.mk
+
+-------
 License
 -------
 
